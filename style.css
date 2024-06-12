@@ -1,53 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #19d25d;
-    color: #d5d8e1;
+   background-color: #016f32;
+   font-weight: bold;
+   color: rgb(255, 255, 255) ;
+   background-size:cover;
+   text-align: center;
 }
 
-.game-container {
-    text-align: center;
-    max-width: 600px;
-    background-color: #10471a;
-    padding: 20px;
-    border-radius: 10px;
+h1 {
+    color:rgb(228, 132, 14);
+    font-style: unset;
 }
 
-.game-info {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
-}
-
-#player-info, #dealer-info {
-    width: 55%;
-}
-
-#player-cards, #dealer-cards {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+#messages-el {
+    font-style:italic ;
 }
 
 button {
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #4CAF50;
+    color: #016f32;
+    width: 150px;
+    background:rgb(228, 132, 14) ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
     border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-#game-message {
-    margin-top: 20px;
-    font-size: 1.2em;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
